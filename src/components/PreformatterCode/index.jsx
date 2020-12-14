@@ -8,7 +8,6 @@ import { vs2015  } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 
 export default ({id, language, children}) => (
     <div className="preformatterCode">
-        <PreformattedCodeCopy copyData={children}/>
         <SyntaxHighlighter
             id={id}
             style={vs2015}

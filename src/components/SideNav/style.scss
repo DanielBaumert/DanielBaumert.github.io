@@ -1,0 +1,32 @@
+.left-container { 
+
+    padding-top: 1.5rem;
+    padding-top: 1.5rem;
+
+
+    &.columns { 
+        width: 100%;
+        align-items: stretch;
+        
+        .is-fixed.is-flex.is-flex-column {
+            position: fixed !important;
+            display: flex !important;
+            flex-direction: column !important;
+        }
+
+        .tree {
+            position: relative;
+            font-size: 0.875rem;
+            ul {
+                list-style-type: none;
+                margin-bottom: 0;
+            }
+        }
+        
+        ul.tree {
+            list-style-type: none;
+            margin-bottom: 0;
+        }
+    }
+
+}

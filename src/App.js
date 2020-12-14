@@ -1,25 +1,21 @@
 import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
+import * as pages from './pages';
+import { default as Nav } from "./static-components/Nav";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <BrowserRouter>
+            <div className="columns has-large-gaps is-gapless-mobile">
+                <Nav/>
+                <Switch>
+                    <Redirect exact from="" to="/" />
+                    <Route path="/" exact component={pages.Home}/>
+                    <Route path="/x11/screen" component={pages.XScreen}/>
+                </Switch>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;

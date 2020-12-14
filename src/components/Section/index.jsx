@@ -1,6 +1,6 @@
-export default ({title}) => ( 
+export default ({title, children}) => ( 
     <div>
-        <h2 id={props.title.toLowerCase().replace(" ", "-")}>{props.title}</h2>
-        {props.children}
+        <h2 id={title.toLowerCase().replace(" ", "-")}>{title}</h2>
+        {children}
     </div>
 );
