@@ -215,3 +215,35 @@ $font-path: 'fonts';
 		background-position: -200% 0;
 	}
 }
+
+
+html {
+	font-size: 16px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	color: #e3e3e3;
+	background-color: #171717;
+	outline-color: #e3e3e3;
+	text-rendering: optimizeLegibility;
+	box-sizing: border-box;
+	min-height: 100vh;
+	font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	* { 
+		box-sizing: inherit;
+		outline-color: inherit;
+	}
+
+	body { 
+		display: flex;
+		flex-direction: column;
+		flex: 1 1 100%;
+		background-color: #171717;
+		color: #e3e3e3;
+		line-height: 160%;
+		min-height: 100vh;
+		font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 400;
+		text-rendering: optimizeLegibility;
+	}
+}
