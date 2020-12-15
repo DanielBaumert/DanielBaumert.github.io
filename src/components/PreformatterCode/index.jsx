@@ -11,7 +11,6 @@ export default ({id, language, children}) => (
         <SyntaxHighlighter
             id={id || 'main-code'}
             style={vs2015}
-            showLineNumbers
             language={language || 'cpp'}
         >
             {children}

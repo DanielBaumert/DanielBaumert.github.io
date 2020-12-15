@@ -1,7 +1,8 @@
 
 import { 
     ContentNav, 
-    ContentNavButton 
+    ContentNavButton,
+    ContentContainer
 } from "components";
 
 import './style.scss';
@@ -9,7 +10,9 @@ import './style.scss';
 export default ({children, nav}) => (
     <section className="MainContainer">
         <div>
-            {children}
+            <ContentContainer>
+                {children}
+            </ContentContainer>
             <ContentNav>
                 {nav.map(x => <ContentNavButton title={x}></ContentNavButton>)}
             </ContentNav>
