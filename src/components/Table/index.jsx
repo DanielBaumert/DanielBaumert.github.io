@@ -1,8 +1,8 @@
 import './style.scss';
 
 export default ({children}) => ( 
-    <div className="table-scroll-wrapper">
-        <table className="table">
+    <div className="Table">
+        <table>
             <tbody>
                 {children}
             </tbody>

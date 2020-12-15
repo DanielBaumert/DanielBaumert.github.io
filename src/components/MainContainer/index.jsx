@@ -1,6 +1,8 @@
 
-import { default as ContentNav } from "../ContentNav";
-import { default as ContentNavButton } from "../ContentNavButton";
+import { 
+    ContentNav, 
+    ContentNavButton 
+} from "components";
 
 import './style.scss';
 

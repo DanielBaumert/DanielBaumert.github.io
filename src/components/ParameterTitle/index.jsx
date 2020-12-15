@@ -1,3 +1,5 @@
+import './style.scss';
+
 export default ({children}) => (
-    <p><code>{children}</code></p>
+    <p className="ParameterTitle"><code>{children}</code></p>
 );

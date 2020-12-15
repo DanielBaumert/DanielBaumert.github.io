@@ -1,0 +1,13 @@
+.ParameterTitle { 
+    margin-top: 1rem;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    
+    >code { 
+        padding: 0.1em 0.2em;
+        background-color: #242424;
+        border-radius: 3px;
+        font-size: 85%;
+        word-wrap: break-word;
+    }
+}

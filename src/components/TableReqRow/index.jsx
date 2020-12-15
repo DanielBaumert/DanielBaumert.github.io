@@ -1,7 +1,7 @@
 import './style.scss';
 
-export default ({title, value, desc}) => (
-    <tr className="TableConstRow">
+export default ({title, desc}) => (
+    <tr className="TableReqRow"> 
         <td width="40%">
             <a id={title.toUpperCase()}></a>
             <a id={title.toLowerCase()}></a>
@@ -9,9 +9,8 @@ export default ({title, value, desc}) => (
                 <dt>
                     <b>{title}</b>
                 </dt>
-                <dt>{value}</dt>
             </dl>
         </td>
         <td width="60%">{desc}</td>
     </tr>
-)
+);
