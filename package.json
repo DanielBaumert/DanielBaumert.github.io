@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build | npm run deploy",
+    "deploy": "npm run build | cp -r build/* ../facebamm.github.io-page | cd ../facebamm.github.io-page | git commit -m 'fix' | git push | git push https://github.com/facebamm/facebamm.github.io | cd ../facebamm.github.io",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

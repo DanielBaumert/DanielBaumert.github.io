@@ -1,20 +1,20 @@
 import logo from './logo.svg';
-import {BrowserRouter, Route, Switch } from 'react-router-dom';
+import {HashRouter, Route, Switch } from 'react-router-dom';
 import * as pages from './pages';
 import { default as Nav } from "./static-components/Nav";
 import { RootContainer } from "./components";
 
 function App() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <RootContainer>
                 <Nav/>
                 <Switch>
                     <Route path="/" exact component={pages.Home}/>
-                    <Route path="/x11/screen" component={pages.XCreateWindow}/>
+                    <Route path="/x11/XCreateWindow" component={pages.XCreateWindow}/>
                 </Switch>
             </RootContainer>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 

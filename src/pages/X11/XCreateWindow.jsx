@@ -9,7 +9,7 @@ import {
     TableReqRow
 } from "components";
 
-const constentNav =["Syntax", "Parameter", "Return Value"];
+const constentNav =["Syntax", "Parameters", "Return Value"];
 
 export default () => (
     <MainContainer nav={constentNav}>

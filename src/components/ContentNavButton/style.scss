@@ -4,10 +4,12 @@
     padding: 2px 0;
     padding-left: 7px;
     margin: 4px 0;
+    
     >a { 
         color: #4db2ff !important;
         text-decoration: none;
-        
+        cursor: pointer;
+
         &:hover { 
             text-decoration: underline;
         }
