@@ -1,9 +1,9 @@
 import './style.scss';
 
 export default ({children}) => (
-    <div className="ContentContainer">
-        <main>
+    <div className="RootContainer">
+        <div>
             {children}
-        </main>
+        </div>
     </div>
-)
+);

@@ -1,5 +1,5 @@
 export default ({title}) => (
-    <li>
+    <li className="ContentNavButton">
         <a href={`#${title.toLowerCase().replace(" ", "-")}`}>{title}</a>
     </li>
 );

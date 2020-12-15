@@ -8,6 +8,7 @@ export { default as NavExpander } from './NavExpander';
 export { default as ParameterDescription } from './ParameterDescription';
 export { default as ParameterTitle } from './ParameterTitle';
 export { default as PreformattedCode } from './PreformatterCode';
+export { default as RootContainer } from './RootContainer';
 export { default as Section } from './Section';
 export { default as SideNav } from './SideNav';
 export { default as Table } from './Table';
