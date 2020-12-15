@@ -11,7 +11,7 @@ function App() {
                 <Nav/>
                 <Switch>
                     <Route path="/" exact component={pages.Home}/>
-                    <Route path="/x11/screen" component={pages.XScreen}/>
+                    <Route path="/x11/screen" component={pages.XCreateWindow}/>
                 </Switch>
             </RootContainer>
         </BrowserRouter>
